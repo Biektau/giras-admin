@@ -1,0 +1,46 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #665c54;
+
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+    .wrapper {
+        background-color: #282828;
+        padding: 15px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        height: 100%;
+
+        .content {
+            background-color: #fff;
+            flex: 1;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+
+            .title {
+                font-size: 24px;
+                font-weight: bold;
+                color: #282828;
+            }
+
+            .deleteButton {
+                cursor: pointer;
+                background-color: #cc241d;
+                padding: 20px 50px;
+                font-size: 30px;
+                border-radius: 15px;
+                color: #fff;
+            }
+
+        }
+    }
+}

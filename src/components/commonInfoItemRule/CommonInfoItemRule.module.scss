@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    
+    
+    border-left: 20px solid;
+    
+    gap: 50px;
+    flex-wrap: wrap;
+    background-color: #1d2021;
+    border-radius: 10px;
+    
+
+    .section {
+        text-align: center;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .title {
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .strings {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .string {
+                color: #ebdbb2;
+                font-size: 18px;
+            }
+        }
+    }
+}
