@@ -64,7 +64,7 @@ export default function PpeForm() {
         const imgArray = removeEmptyElements(tempImageArray);
 
         await axios
-          .post("https://girasbackend.onrender.com/ppe/create", {
+          .post("https://giras-backend-ruzal-02.amvera.io/ppe/create", {
             name: values.name,
             price: values.price,
             standart: values.standart,

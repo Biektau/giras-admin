@@ -77,7 +77,7 @@ export default function ShoesForm() {
         const imgArray = removeEmptyElements(tempImageArray);
 
         await axios
-          .post("https://girasbackend.onrender.com/shoes/create", {
+          .post("https://giras-backend-ruzal-02.amvera.io/shoes/create", {
             name: values.name,
             price: values.price,
             color: values.color,

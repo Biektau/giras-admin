@@ -64,7 +64,7 @@ export default function PpeUpdateForm({ item }) {
         const imgArray = removeEmptyElements(tempImageArray);
 
         await axios
-          .put(`https://girasbackend.onrender.com/ppe/update/${item._id}`, {
+          .put(`https://giras-backend-ruzal-02.amvera.io/ppe/update/${item._id}`, {
             name: values.name,
             price: values.price,
             standard: values.standard,

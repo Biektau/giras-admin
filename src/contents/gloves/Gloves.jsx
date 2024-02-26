@@ -10,7 +10,7 @@ export default function Gloves() {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("https://girasbackend.onrender.com/gloves/get")
+      .get("https://giras-backend-ruzal-02.amvera.io/gloves/get")
       .then((response) => {
         setData(response.data);
         setIsLoading(false);

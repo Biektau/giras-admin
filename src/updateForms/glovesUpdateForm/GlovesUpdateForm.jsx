@@ -70,7 +70,7 @@ export default function GlovesUpdateForm({ item }) {
         const imgArray = removeEmptyElements(tempImageArray);
 
         await axios
-          .put(`https://girasbackend.onrender.com/gloves/update/${item._id}`, {
+          .put(`https://giras-backend-ruzal-02.amvera.io/gloves/update/${item._id}`, {
             name: values.name,
             price: values.price,
             color: values.color,

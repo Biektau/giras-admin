@@ -10,7 +10,7 @@ export default function WorkWear() {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("https://girasbackend.onrender.com/workWear/get")
+      .get("https://giras-backend-ruzal-02.amvera.io/workWear/get")
       .then((response) => {
         setData(response.data);
         setIsLoading(false);

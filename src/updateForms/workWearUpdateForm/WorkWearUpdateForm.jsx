@@ -84,7 +84,7 @@ export default function WorkWearUpdateForm({ item }) {
         const imgArray = removeEmptyElements(tempImageArray);
 
         await axios
-          .put(`https://girasbackend.onrender.com/workWear/update/${item._id}`, {
+          .put(`https://giras-backend-ruzal-02.amvera.io/workWear/update/${item._id}`, {
             name: values.name,
             price: values.price,
             color: values.color,

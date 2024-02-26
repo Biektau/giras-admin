@@ -10,7 +10,7 @@ export default function PPE() {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("https://girasbackend.onrender.com/ppe/get")
+      .get("https://giras-backend-ruzal-02.amvera.io/ppe/get")
       .then((response) => {
         setData(response.data);
         setIsLoading(false);

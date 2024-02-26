@@ -70,7 +70,7 @@ export default function GlovesForm() {
         const imgArray = removeEmptyElements(tempImageArray);
 
         await axios
-          .post("https://girasbackend.onrender.com/gloves/create", {
+          .post("https://giras-backend-ruzal-02.amvera.io/gloves/create", {
             name: values.name,
             price: values.price,
             color: values.color,

@@ -13,7 +13,7 @@ export default function Delete() {
     try {
       axios
         .get(
-          `https://girasbackend.onrender.com/${getLinkAdress(
+          `https://giras-backend-ruzal-02.amvera.io/${getLinkAdress(
             currentPath
           )}/getOne/${getIdByPath(currentPath)}`
         )
@@ -41,7 +41,7 @@ export default function Delete() {
     try {
       axios
         .delete(
-          `https://girasbackend.onrender.com/${getLinkAdress(
+          `https://giras-backend-ruzal-02.amvera.io/${getLinkAdress(
             currentPath
           )}/delete/${getIdByPath(currentPath)}`
         )

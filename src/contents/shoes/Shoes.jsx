@@ -10,7 +10,7 @@ export default function Shoes() {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("https://girasbackend.onrender.com/shoes/get")
+      .get("https://giras-backend-ruzal-02.amvera.io/shoes/get")
       .then((response) => {
         setData(response.data);
         setIsLoading(false);
